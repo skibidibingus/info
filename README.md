@@ -1,10 +1,6 @@
---[[
-Octohook ui lib informant version
-Developed by liam#4567
-Edited by xz#1111
-]]
 
--- // Load
+
+
 
 local startupArgs = ({...})[1] or {}
 
@@ -20,7 +16,7 @@ local function gs(a)
     return game:GetService(a)
 end
 
--- // Variables
+
 local players, http, runservice, inputservice, tweenService, stats, actionservice = gs('Players'), gs('HttpService'), gs('RunService'), gs('UserInputService'), gs('TweenService'), gs('Stats'), gs('ContextActionService')
 local localplayer = players.LocalPlayer
 
