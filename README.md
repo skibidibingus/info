@@ -33,7 +33,7 @@ local executor = (
 
 local library = {
     windows = {};
-    indicators = {};
+    
     flags = {};
     options = {};
     connections = {};
